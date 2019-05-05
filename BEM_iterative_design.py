@@ -89,7 +89,7 @@ def get_relevant_values(alpha_info, lookup_info):
 	print("Axial induction factor, Angular induction factor:")
 	print(axial_induction_factor, angular_induction_factor, "\n")
 
-	General_Force = 0.5*1.2*c*(v0**3)
+	General_Force = 0.5*1.2*c*(v0**2)
 	Fn = coefficient_storage[axial_index][0] * General_Force
 	Ft = coefficient_storage[angular_index][1] * General_Force
 
